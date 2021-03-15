@@ -1,1 +1,0 @@
-# gnba.github.io
