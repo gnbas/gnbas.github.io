@@ -17,11 +17,11 @@
     </item>
     
     <item>
-      <title>Ejemplos Markdown</title>
-      <link>https://gnbas.github.io/docs/markdown/</link>
+      <title>Propuesta Individual Mobiliario</title>
+      <link>https://gnbas.github.io/docs/propuesta-carrara/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://gnbas.github.io/docs/markdown/</guid>
+      <guid>https://gnbas.github.io/docs/propuesta-carrara/</guid>
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
@@ -31,6 +31,15 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://gnbas.github.io/docs/entrega1/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>Propuesta individual Mobiliario</title>
+      <link>https://gnbas.github.io/docs/markdown/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gnbas.github.io/docs/markdown/</guid>
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
