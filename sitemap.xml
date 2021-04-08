@@ -5,14 +5,18 @@
     <loc>https://gnbas.github.io/docs/</loc>
     <lastmod>2018-11-28T15:14:39+10:00</lastmod>
   </url><url>
-    <loc>https://gnbas.github.io/docs/ejemplo/</loc>
+    <loc>https://gnbas.github.io/docs/propuesta-carrara/</loc>
     <lastmod>2020-06-17T19:30:08+10:00</lastmod>
   </url><url>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <loc>https://gnbas.github.io/docs/propuesta-carrara/</loc>
 =======
     <loc>https://gnbas.github.io/docs/markdown/</loc>
 >>>>>>> Stashed changes
+=======
+    <loc>https://gnbas.github.io/docs/ejemplo/</loc>
+>>>>>>> 89528664394ac527f457373b6f2c3547aca332d1
     <lastmod>2020-06-17T19:30:08+10:00</lastmod>
   </url><url>
     <loc>https://gnbas.github.io/docs/entrega1/</loc>
