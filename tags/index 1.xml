@@ -2,9 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gustavo Baselli - Proyectos y Trabajos</title>
+<<<<<<< HEAD
     <link>http://gnbas.github.io/tags/</link>
     <description>Recent content in Tags on Gustavo Baselli - Proyectos y Trabajos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://gnbas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <link>https://gnba.github.io/tags/</link>
+    <description>Recent content in Tags on Gustavo Baselli - Proyectos y Trabajos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://gnba.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 7c8db3bac7d5f7561381aeaa7bb7bea829935380
   </channel>
 </rss>
