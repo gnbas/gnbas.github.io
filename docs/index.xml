@@ -52,5 +52,14 @@
       <description>Proyecto CARRARA.</description>
     </item>
     
+    <item>
+      <title>Teoría aplicada del diseño</title>
+      <link>https://gnbas.github.io/docs/teoria-aplicada-del-dise%C3%B1o/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gnbas.github.io/docs/teoria-aplicada-del-dise%C3%B1o/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
   </channel>
 </rss>
