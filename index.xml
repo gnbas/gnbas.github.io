@@ -7,7 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Jun 2020 19:30:08 +1000</lastBuildDate><atom:link href="https://gnbas.github.io/index.xml" rel="self" type="application/rss+xml" />
-<<<<<<< Updated upstream
     <item>
       <title>Propuesta Individual Mobiliario</title>
       <link>https://gnbas.github.io/docs/propuesta-carrara/</link>
@@ -17,8 +16,6 @@
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
-=======
->>>>>>> Stashed changes
     <item>
       <title>Ejemplo Shortcodes</title>
       <link>https://gnbas.github.io/docs/ejemplo/</link>
@@ -29,26 +26,17 @@
     </item>
     
     <item>
-<<<<<<< Updated upstream
       <title>Bits &amp; Bites</title>
       <link>https://gnbas.github.io/docs/bits-bites/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://gnbas.github.io/docs/bits-bites/</guid>
-=======
-      <title>Ejemplos Markdown</title>
-      <link>https://gnbas.github.io/docs/markdown/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://gnbas.github.io/docs/markdown/</guid>
->>>>>>> Stashed changes
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
     <item>
       <title>Entrega 1: Mobiliario Híbrido</title>
       <link>https://gnbas.github.io/docs/entrega1/</link>
-<<<<<<< Updated upstream
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://gnbas.github.io/docs/entrega1/</guid>
@@ -70,11 +58,6 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://gnbas.github.io/docs/teoria-aplicada-del-dise%C3%B1o/</guid>
-=======
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://gnbas.github.io/docs/entrega1/</guid>
->>>>>>> Stashed changes
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
