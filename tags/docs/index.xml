@@ -35,6 +35,15 @@
     </item>
     
     <item>
+      <title>Electrónica aplicada</title>
+      <link>https://gnbas.github.io/docs/electr%C3%B3nica-aplicada/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gnbas.github.io/docs/electr%C3%B3nica-aplicada/</guid>
+      <description>Ejercicios para electrónica aplicada Sem 2 - 2021.</description>
+    </item>
+    
+    <item>
       <title>Entrega 1: Mobiliario Híbrido</title>
       <link>https://gnbas.github.io/docs/entrega1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
@@ -50,6 +59,15 @@
       
       <guid>https://gnbas.github.io/docs/markdown/</guid>
       <description>Proyecto CARRARA.</description>
+    </item>
+    
+    <item>
+      <title>Teoría aplicada del diseño</title>
+      <link>https://gnbas.github.io/docs/teoria-aplicada-del-dise%C3%B1o/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gnbas.github.io/docs/teoria-aplicada-del-dise%C3%B1o/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
   </channel>
