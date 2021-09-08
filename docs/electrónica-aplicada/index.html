@@ -416,6 +416,157 @@ frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:
 	}
 });
 </script>
+<h1 id="circuito-arduino-blink">Circuito arduino: Blink</h1>
+<p>Este circuito me sirvió mucho para comenzar a entender mejor las funciones de cada comando y a tener una nueva aproximaci&rsquo;on con Arduino. Probé el código primero en TinkerCad para poder ver bien primero como y donde eran las conexiones. Básicamente el circuito entrega infomración a una Led para que se prenda y apague con un delay que en este caso es de 1 segundo, manteniéndose encendida durante 2 segundos.</p>
+<p>El código es:</p>
+<p>void setup()</p>
+<p>{
+pinMode(13, OUTPUT);
+}</p>
+<p>void loop()
+{
+digitalWrite(13, HIGH);</p>
+<p>delay(2000);</p>
+<p>digitalWrite(13, LOW);</p>
+<p>delay(1000);
+}</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/blinkarduinotinker.mp4"  type="video/mp4">
+    </video>
+</div>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/blinkreal.mp4"  type="video/mp4">
+    </video>
+</div>
+<h1 id="circuito-arduino-potenciometro">Circuito arduino: Potenciometro</h1>
+<p>El potenciómetro básicamente es el regulador que permite la cantidad de energía que pasa para poder alimentar la Led.</p>
+<p>Código:</p>
+<p>int sensorPin = 0;</p>
+<p>int ledPin = 13;</p>
+<p>void setup() {</p>
+<p>pinMode(ledPin, OUTPUT);
+}</p>
+<p>void loop() {</p>
+<p>int sensorValue;</p>
+<p>sensorValue = analogRead(sensorPin);</p>
+<p>digitalWrite (ledPin, HIGH);</p>
+<p>delay (sensorValue);</p>
+<p>digitalWrite (ledPin, LOW);</p>
+<p>delay (sensorValue);
+}</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/potenciometroledtinker.mp4"  type="video/mp4">
+    </video>
+</div>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/ledpotenciometroreal.mp4"  type="video/mp4">
+    </video>
+</div>
+<h1 id="circuito-arduino-rgb">Circuito arduino: RGB</h1>
+<p>Por primera vez trabjé con una Led que cambiara de colores, y siendo sincero, aún no entiendo mu ybien como, solo se que cada entrada le otorga una instrucción de seguir un color, pero no entiendo muy bien cuantos colores puede iluminar.</p>
+<p>Código:</p>
+<p>const int RED_PIN = 9;</p>
+<p>const int GREEN_PIN = 10;</p>
+<p>const int BLUE_PIN = 11;</p>
+<p>int DISPLAY_TIME = 100;</p>
+<p>void setup() {</p>
+<p>pinMode(RED_PIN, OUTPUT);</p>
+<p>pinMode(GREEN_PIN, OUTPUT);</p>
+<p>pinMode(BLUE_PIN, OUTPUT);</p>
+<p>}</p>
+<p>void loop() {</p>
+<p>digitalWrite(RED_PIN, HIGH);</p>
+<p>digitalWrite(GREEN_PIN, LOW);</p>
+<p>digitalWrite(BLUE_PIN, LOW);</p>
+<p>delay (1000);</p>
+<p>digitalWrite(RED_PIN, LOW);</p>
+<p>digitalWrite(GREEN_PIN, HIGH);</p>
+<p>digitalWrite(BLUE_PIN, LOW);</p>
+<p>delay(1000);</p>
+<p>digitalWrite(RED_PIN, LOW);</p>
+<p>digitalWrite(GREEN_PIN, LOW);</p>
+<p>digitalWrite(BLUE_PIN, HIGH);</p>
+<p>delay (1000);
+}</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/rgbtinker.mp4"  type="video/mp4">
+    </video>
+</div>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/rgbreal.mp4"  type="video/mp4">
+    </video>
+</div>
+<h1 id="circuito-arduino-multiples-led-y-knight-rider">Circuito arduino: Multiples Led y Knight Rider</h1>
+<p>Este ejercicio me costó entenderlo ya que anteriormente había hecho algo parecido pero copaindo y pegando infinitamente comandos que apagaban y prendían las luces con un delay determinado (que fue lo que hice con el Knight rider, el cual intenté con el código de las múltiples led y agrendando los mismos códigos pero al revés y no resultó), pero luego pude darme cuenta que así es mucho más sencillo y corto.</p>
+<p>Código:</p>
+<p>int ledPins[]={2,3,4,5,6,7,8,9};</p>
+<p>void setup() {</p>
+<p>int index;</p>
+<p>for(index= 0; index&lt;=7;index++);</p>
+<p>{
+pinMode(ledPins[index], OUTPUT);</p>
+<pre><code>}
+</code></pre>
+<p>}</p>
+<p>void loop() {</p>
+<p>int index;</p>
+<p>int delayTime = 100;</p>
+<p>for(index = 0; index &lt;= 7; index++)</p>
+<p>{
+digitalWrite(ledPins[index], HIGH);</p>
+<pre><code>digitalWrite(ledPins[index], LOW);
+</code></pre>
+<p>}
+}</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/videomultipleled.mp4"  type="video/mp4">
+    </video>
+</div>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/multipleledreal.mp4"  type="video/mp4">
+    </video>
+</div>
+<p>Knight Rider</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/rider.mp4"  type="video/mp4">
+    </video>
+</div>
 
 </div>
 </div>
